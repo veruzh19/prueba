@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img class="brand-img" src="images/logotipo-instagram.png">
+            <form class="search-form">
+                <input type="text" class="search-box" placeholder="search..">
+            </form>
+            <div class="nav-items">
+                <i class='bx bx-home'></i>
+                <i class='bx bx-plus'></i>
+                <i class='bx bxs-heart'></i>
+                <div class="bx user-profile">
+                    <a href="./profile.html"><i class='bx bxs-user'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="images/user_profile4.jpg" alt="">
+                        </div>
+                        <p class="username">MichyVibes</p> 
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="images/user_profile.jpg" alt="">
+                        </div>
+                        <p class="username">Sebastian</p> 
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="images/user_profile5.jpg" alt="">
+                        </div>
+                        <p class="username">Doggy</p> 
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="images/user_profile3.jpg" alt="">
+                        </div>
+                        <p class="username">Choco_Crispy</p> 
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic">
+                            <img src="images/user_profile2.jpg" alt="">
+                        </div>
+                        <p class="username">Lucia</p> 
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/user_profile3.jpg" alt="">
+                            </div>
+                            <p class="username">Choco_Crispy</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded options'></i>
+                    </div>
+
+                    <img src="images/1.jpg" class="post-image"> <!-- LA IMAGEN ES LA MISMA Q ESTARA EN SU PERFIL -->
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                            <i class='icon bx bxl-telegram'></i>
+                        </div>
+                        <div class="likes">0 likes</div>
+                        <p class="description"><span>Choco_Crispy</span> this is a post by username</p> <!-- PONER DESCRIPCION -->
+                        <p class="post-time">2024/12/08</p>
+                    </div>
+
+                    <div class="comment-wrapper">
+                        <img src="images/user.jpg" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="add-comment-btn">Post</button> 
+                    </div>
+                    <div class="comments-list"></div> 
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/user_profile5.jpg" alt="">
+                            </div>
+                            <p class="username">Doggy</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded options'></i>
+                    </div>
+
+                    <img src="images/1.jpg" class="post-image"> <!-- LA IMAGEN ES LA MISMA Q ESTARA EN SU PERFIL -->
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                        </div>
+                        <div class="likes">0 likes</div>
+                        <p class="description"><span>Doggy</span> this is a post by username</p> <!-- PONER DESCRIPCION -->
+                        <p class="post-time">2024/12/10</p>
+                    </div>
+
+                    <div class="comment-wrapper">
+                        <img src="images/user.jpg" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="add-comment-btn">Post</button> 
+                    </div>
+                    <div class="comments-list"></div> 
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/user_profile.jpg" alt="">
+                            </div>
+                            <p class="username">Sebastian</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded options'></i>
+                    </div>
+
+                    <img src="images/1.jpg" class="post-image"> <!-- LA IMAGEN ES LA MISMA Q ESTARA EN SU PERFIL -->
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                            <i class='icon bx bxl-telegram'></i>
+                        </div>
+                        <div class="likes">0 likes</div>
+                        <p class="description"><span>Sebastian</span> this is a post by username</p> <!-- PONER DESCRIPCION -->
+                        <p class="post-time">2024/09/01</p>
+                    </div>
+
+                    <div class="comment-wrapper">
+                        <img src="images/user.jpg" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="add-comment-btn">Post</button> 
+                    </div>
+                    <div class="comments-list"></div> 
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic">
+                                <img src="images/user_profile4.jpg" alt="">
+                            </div>
+                            <p class="username">MichyVibes</p>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded options'></i>
+                    </div>
+
+                    <img src="images/1.jpg" class="post-image"> <!-- LA IMAGEN ES LA MISMA Q ESTARA EN SU PERFIL -->
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                        </div>
+                        <div class="likes">0 likes</div>
+                        <p class="description"><span>MichyVibes</span> this is a post by username</p> <!-- PONER DESCRPCION -->
+                        <p class="post-time">2024/08/18</p>
+                    </div>
+
+                    <div class="comment-wrapper">
+                        <img src="images/user.jpg" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="add-comment-btn">Post</button> 
+                    </div>
+                    <div class="comments-list"></div> 
+                </div>
+            </div>
+
+            <div class="right-col">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="images/user.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="profile-user-name">username</p>
+                    </div>
+                    <button class="logout-btn"><a href="login.html">Logout</a></button>
+                </div>
+                <p class="suggestion-text">Suggestions For You</p>
+                <div class="suggestion-card">
+                    <div class="suggestion-pic">
+                        <img src="images/user_profile.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Sebastian</p>
+                        <p class="sub-text">Sebas</p>
+                    </div>
+                    <button class="follow-btn"> <a href="user_profile.html">Follow</a></button>
+                </div>
+                <div class="suggestion-card">
+                    <div class="suggestion-pic">
+                        <img src="images/user_profile2.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Lucia</p>
+                        <p class="sub-text">Lu
+                        </p>
+                    </div>
+                    <button class="follow-btn"> <a href="user_profile2.html">Follow</a></button>
+                </div>
+                <div class="suggestion-card">
+                    <div class="suggestion-pic">
+                        <img src="images/user_profile3.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Choco_Crispy</p>
+                        <p class="sub-text">Cristian</p>
+                    </div>
+                    <button class="follow-btn"> <a href="user_profile3.html">Follow</a></button>
+                </div>
+                <div class="suggestion-card">
+                    <div class="suggestion-pic">
+                        <img src="images/user_profile4.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">MichyVibes</p>
+                        <p class="sub-text">carlita</p> <!-- REVISAR -->
+                    </div>
+                    <button class="follow-btn"> <a href="user_profile4.html">Follow</a></button>
+                </div>
+                <div class="suggestion-card">
+                    <div class="suggestion-pic">
+                        <img src="images/user_profile5.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">Doggy</p>
+                        <p class="sub-text">El_doggy</p>
+                    </div>
+                    <button class="follow-btn"> <a href="user_profile5.html">Follow</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script> 
+    <script src="js/edit_profile.js"></script>
+</body>
+</html>

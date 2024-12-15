@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="main-container">
+            <div class="main-content">
+                <div class="slider-container" style="background-image: url(images/);">
+                    <div class="slider-content" id="slide-content">
+                        <img src="" class="active" alt="screen1">
+                        <img src="" alt="screen2">
+                        <img src="" alt="screen3">
+                        <img src="" alt="screen4">
+                        <img src="" alt="screen5">
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="form-content box">
+                        <div class="logo">
+                            <img src="images/logotipo-instagram.png" alt="logo" class="logo-img">
+                        </div>
+                        <form action="" class="login-form" id="login-form">
+                            <p class="text-center alert-danger" id="error_message"></p>
+                            <div class="form-group">
+                                <div class="login-input">
+                                    <input 
+                                    type="text" 
+                                    name="email" 
+                                    placeholder="Type your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="login-input">
+                                    <input 
+                                    type="password" 
+                                    name="password" 
+                                    id="password"
+                                    placeholder="Type your password" required>
+                                </div>
+                            </div>
+                            <div class="btn-group">
+                                <button class="login-btn" id="login_btn" type="submit">
+                                    <a href="profile.html">Login</a>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="or">
+                            <hr>
+                            <span>OR</span>
+                            <hr>
+                        </div>
+                        <div class="goto">
+                            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        </div>
+                        <div class="app-download">
+                            <p>Get the app.</p>
+                            <div class="store-link">
+                                <a href="#">
+                                    <img src="images/app.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/play.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"> 
+            <div class="links" id="links">
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help</a>
+                <a href="#">Privacy</a>
+                <a href="#">API</a>
+                <a href="#">Terms</a>
+                <a href="#">Top Accounts</a>
+                <a href="#">Hashtags</a>
+                <a href="#" id="dark-btn">Dark</a>
+            </div>
+            <div class="copyright">
+                @ 2024 Instagram from Meta.
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login_y_signup.js"></script>
+</body>
+</html>

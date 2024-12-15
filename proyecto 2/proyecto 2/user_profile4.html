@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram/ user-profile</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img class="brand-img" src="images/logotipo-instagram.png">
+            <form class="search-form">
+                <input type="text" class="search-box" placeholder="search..">
+            </form>
+            <div class="nav-items">
+                <a href="./index.html"><i class='bx bx-home'></i></a>
+                <i class='bx bx-plus'></i>
+                <i class='bx bxs-heart'></i>
+                <div class="bx user-profile">
+                    <a href="./profile.html"><i class='bx bxs-user'></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<header class="profile-header">
+    <div class="profile-container">
+        <div class="profile">
+            <div class="profile-image">
+                <img src="images/user_profile4.jpg" alt=""> 
+            </div>
+            <div class="profile-user.settings" style="width: 35%; text-align: left;">
+                <h1 class="profile-user-name">MichyVibes</h1>
+            </div>
+            <div class="profile-stats">
+                <ul>
+                    <li> <span class="profile-stat-count">3</span> posts</li>
+                    <li> <span class="profile-stat-count">135</span> followers</li>
+                    <li> <span class="profile-stat-count">105</span> following</li>
+                </ul>
+
+                <form action="">
+                    <button type="submit" class="follow-btn-user-profile">Follow</button>
+                </form>
+            </div>
+            <div class="profile-bio" style="text-align: center;width: 100%;">
+                <p style="text-align: center;">
+                    <span class="profile-real-name">Carlita</span>This is a description <!-- HAY Q ARREGLAR LA DESCRIPCION/BIO PARA Q SE ESTE EN EL LUGAR CORRECTO -->
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="profile-container">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/1.jpg" class="gallery-image"> <!-- revisar img -->
+                <div class="gallery-item-info">
+                    <ul>
+                        <li class="gallery-item-likes">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <span class="hide-gallery-element"> 54 </span> <!-- aca solo numero-->
+                        </li>
+                        <li class="gallery-item-comments">
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                            <span class="hiden-gallery-element">38</span> <!-- aca solo numero-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/1.jpg" class="gallery-image"> <!-- revisar img -->
+                <div class="gallery-item-info">
+                    <ul>
+                        <li class="gallery-item-likes">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <span class="hide-gallery-element"> 9 </span> <!-- aca solo numero-->
+                        </li>
+                        <li class="gallery-item-comments">
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                            <span class="hiden-gallery-element">4</span> <!-- aca solo numero-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/1.jpg" class="gallery-image"> <!-- revisar img -->
+                <div class="gallery-item-info">
+                    <ul>
+                        <li class="gallery-item-likes">
+                            <i class='icon bx bxs-heart like-btn'></i>
+                            <span class="hide-gallery-element">178</span> <!-- aca solo numero-->
+                        </li>
+                        <li class="gallery-item-comments">
+                            <i class='icon bx bx-message-rounded comment-btn'></i>
+                            <span class="hiden-gallery-element"> 89</span> <!-- aca solo numero-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="js/profile.js"></script>
+<script src="js/user_profile.js"></script>
+</body>
+</html>
